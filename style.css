@@ -1,0 +1,163 @@
+/** navbar **/
+
+.card-container {
+  background-color: #E9BD7C;
+  width: 100%;
+  height: 180vh;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo{
+  margin-right: px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 25px;
+  
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+.search-box {
+  width: 400px;
+  height: 40px;
+  padding-left: px;
+  font-weight: bold;
+  border: none;
+  
+}
+
+
+
+.search-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 450px;
+  border-radius: 20px;
+  
+}
+
+.search-bar:hover {
+  border: 2px solid black;
+}
+
+.search {
+  background-color: white;
+ 
+}
+img {
+  margin-left: 10px;
+  transition: 0.40s;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+/** box **/
+
+.card-container-one {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 30px;
+  justify-content: space-evenly;
+  margin-right: 60px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #6C2E7C;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.description {
+  width: 450px;
+  color: #3D3D3D;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.button {
+  border: none;
+  background: #00446A;
+  width: 180px;
+  height: 50px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 30px;
+  margin-left: 100px;
+
+}
+
+.button:hover {
+  background-color: black;
+ 
+  transition: 0.30s;
+}
+
+.price {
+  color: #6C2E7C;
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'roboto';
+  font-weight: bold;
+  
+}
+
+.button-one {
+  border: none;
+  background: #9900ff;
+  width: 180px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 785px;
+}
+
+.buttons {
+  display: flex;
+  justify-self: center;
+  text-align: center;
+}
+
+
